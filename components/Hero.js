@@ -37,29 +37,29 @@ const Hero = () => {
                             Get Started
                         </a>
                     </div>
-                    <div className="stat mt-9 w-max" >
+                    <div className="stat mt-9" >
                         <div className="flex lg:flex-row flex-col lg:py-2">
-                            <div className="lg:w-20 w-full flex justify-center items-center">
+                            <div className="lg:w-20 w-full justify-center items-center">
                                 <img src="https://apisetu.gov.in/assets/img/undraw_real_time_analytics_re_yliv.svg" className="img-fluid" />
                             </div>
-                            <div className="lg:ml-8 lg:mt-0 mt-4">
+                            <div className="hidden lg:flex lg:ml-8 lg:mt-0 mt-4">
                                 <div className="flex lg:flex-row flex-col gap-4">
-                                    <div className="shadow-lg rounded-xl">
-                                        <div className="bg-white flex flex-col items-center justify-center w-32 h-20 rounded-xl" >
+                                    <div className="rounded-xl">
+                                        <div className="bg-white flex flex-col items-center shadow-lg justify-center w-32 h-20 rounded-xl" >
                                             <span className="text-[#FF9E1F]">Published APIs</span>
                                             <h3 className="ng-binding">2118</h3>
                                         </div>
                                     </div>
 
-                                    <div className="col wow fadeInUp animated shadow-lg rounded-xl">
-                                        <div className="bg-white flex flex-col items-center justify-center w-32 h-20 rounded-xl">
+                                    <div className="col wow fadeInUp animated rounded-xl">
+                                        <div className="bg-white flex flex-col items-center shadow-lg justify-center w-32 h-20 rounded-xl">
                                             <span className="text-[#FF9E1F]">Publishers</span>
                                             <h3 ng-bind="con.publisher" className="ng-binding">1047</h3>
                                         </div>
                                     </div>
 
-                                    <div className="col wow fadeInUp animated shadow-lg rounded-xl" >
-                                        <div className="bg-white flex flex-col items-center justify-center w-32 h-20 rounded-xl">
+                                    <div className="col wow fadeInUp animated rounded-xl" >
+                                        <div className="bg-white flex flex-col items-center shadow-lg justify-center w-32 h-20 rounded-xl">
                                             <span className="text-[#FF9E1F]">Consumers</span>
                                             <h3 ng-bind="con.consumer" className="ng-binding">330</h3>
                                         </div>
