@@ -9,7 +9,7 @@ const Navbar = () => {
             <header>
                 <nav className="bg-white border-gray-200 lg:px-[1px] py-[1px]">
                     <div className="flex flex-col mx-auto max-w-screen-xl z-50 header_shadow px-[2px] py-3">
-                        <div className="flex justify-around lg:-ml-[28px] w-full flex-wrap">
+                        <div className="flex justify-evenly lg:-ml-[28px] w-full flex-wrap">
                             <Link href="/" className="flex items-center">
                                 <img
                                     src="https://directory.api-setu.in/logo.png"

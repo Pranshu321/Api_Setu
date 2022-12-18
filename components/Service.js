@@ -2,12 +2,13 @@ import React from "react";
 import { FaGraduationCap, FaRupeeSign, FaUserAlt } from "react-icons/fa";
 import { AiOutlineIdcard } from "react-icons/ai";
 import ServiceCards from "./ServiceCards";
+import TopServices from "./TopServices";
 
 const Service = () => {
 	return (
 		<div>
 			<section className="service-bg">
-				<div className="mx-auto max-w-screen-xl px-4 py-2 lg:py-20 lg:flex flex-col lg:h-screen">
+				<div className="mx-auto max-w-screen-xl px-4 py-2 lg:py-10 lg:flex flex-col lg:h-screen">
 					<div className="mx-auto lg:w-[60%] flex items-center flex-col text-center">
 						<h1 className="text-3xl text-[#35404E] font-semibold sm:text-5xl">
 							Get access to hundreds of APIs
@@ -43,6 +44,9 @@ them to secure your vendor."
 							content="Verify your employees, Probationers, Interns before their induction in organization."
 							icon={<AiOutlineIdcard size={30} color={"white"} />}
 						/>
+					</div>
+					<div>
+						<TopServices />
 					</div>
 				</div>
 			</section>

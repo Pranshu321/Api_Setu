@@ -13,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="https://img1.digitallocker.gov.in/ndh/smart/images/apisetu_icon.png" />
       </Head>
       <Hero />
+      <div className='my-28'>
       <Service />
+      </div>
     </div>
   )
 }
