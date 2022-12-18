@@ -41,7 +41,7 @@ const TopServices = () => {
 	return (
 		<div className="flex flex-col mt-12">
 			<div className="text-center">
-				<h3 className="text-2xl font-semibold text-[#35404E]">Most Popular API's</h3>
+				<h3 className="text-2xl font-semibold text-[#35404E]">Most Popular {"API's"}</h3>
 			</div>
 			<div className="flex flex-row flex-wrap lg:gap-y-0 items-center lg:gap-x-0 gap-x-20 gap-y-14 my-10 justify-around">
 				{data.map((item, idx) => (	
