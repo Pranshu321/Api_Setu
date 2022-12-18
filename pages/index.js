@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
+import Service from '../components/Service'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="https://img1.digitallocker.gov.in/ndh/smart/images/apisetu_icon.png" />
       </Head>
       <Hero />
+      <Service />
     </div>
   )
 }

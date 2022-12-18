@@ -7,10 +7,10 @@ const Navbar = () => {
     return (
         <div>
             <header>
-                <nav className="bg-white border-gray-200 w-full lg:px-[1px] py-[1px]">
-                    <div className="flex flex-col w-full z-50 header_shadow px-[2px] py-3">
-                        <div className="flex justify-between w-full flex-wrap gap-5">
-                            <a href="#" className="flex items-center">
+                <nav className="bg-white border-gray-200 lg:px-[1px] py-[1px]">
+                    <div className="flex flex-col mx-auto max-w-screen-xl z-50 header_shadow px-[2px] py-3">
+                        <div className="flex justify-around lg:-ml-[28px] w-full flex-wrap">
+                            <Link href="/" className="flex items-center">
                                 <img
                                     src="https://directory.api-setu.in/logo.png"
                                     className="mr-3 h-6 sm:h-12"
@@ -21,7 +21,7 @@ const Navbar = () => {
                                     className="mr-3 h-6 sm:h-11"
                                     alt="Logo"
                                 />
-                            </a>
+                            </Link>
                             <div className="flex items-center lg:order-2">
                                 <a
                                     href="#"
