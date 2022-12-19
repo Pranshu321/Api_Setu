@@ -92,12 +92,12 @@ const Navbar = () => {
                                         />
                                     </li>
                                     <li>
-                                        <a
+                                        <Link
                                             href="#"
                                             className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  dark:hover:bg-black  lg:dark:hover:bg-transparent dark:border-black"
                                         >
                                             API Directory
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <Dropdown
@@ -111,20 +111,20 @@ const Navbar = () => {
                                         />
                                     </li>
                                     <li>
-                                        <a
+                                        <Link
                                             href="#"
                                             className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  dark:hover:bg-black  lg:dark:hover:bg-transparent dark:border-black"
                                         >
                                             Blog
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a
+                                        <Link
                                             href="#"
                                             className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  dark:hover:bg-black  lg:dark:hover:bg-transparent dark:border-black"
                                         >
                                             Join Us
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

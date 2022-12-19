@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 const Dropdown = ({ main, options }) => {
@@ -18,7 +19,7 @@ const Dropdown = ({ main, options }) => {
                     <div className="py-1" role="none">
                         {
                             options.map((item, idx) => (
-                                <a key={idx + 1} href="#" className="text-black hover:bg-[#FF9100] hover:text-white mx-2 my-2 rounded-lg block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">{item}</a>
+                                <Link key={idx + 1} href="#" className="text-black hover:bg-[#FF9100] hover:text-white mx-2 my-2 rounded-lg block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">{item}</Link>
                             ))
                         }
                     </div>

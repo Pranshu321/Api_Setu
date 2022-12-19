@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Hero = () => {
     return (
         <div className=" relative bg-image px-4 pt-4 lg:flex lg:justify-between lg:flex-row w-full mx-auto md:px-8 xl:py-20 xl:px-40 sm:max-w-xl md:max-w-full">
@@ -24,18 +24,18 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="flex items-center">
-                        <a
+                        <Link
                             href="#"
                             className="text-white flex flex-row w-max font-bold bg-[#FF9100] rounded-l-3xl rounded-r-3xl focus:ring-4 text-sm px-6 lg:px-8 py-2 lg:py-3 mr-4"
                         >
                             Read More
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href="#"
                             className="text-white flex flex-row w-max font-bold bg-[#4E6775] rounded-l-3xl rounded-r-3xl focus:ring-4 text-sm px-6 lg:px-8 py-2 lg:py-3 mr-2"
                         >
                             Get Started
-                        </a>
+                        </Link>
                     </div>
                     <div className="stat mt-9" >
                         <div className="flex lg:flex-row flex-col lg:py-2">

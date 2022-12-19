@@ -3,6 +3,8 @@ import { FaGraduationCap, FaRupeeSign, FaUserAlt } from "react-icons/fa";
 import { AiOutlineIdcard } from "react-icons/ai";
 import ServiceCards from "./ServiceCards";
 import TopServices from "./TopServices";
+import Link from "next/link";
+
 
 const Service = () => {
 	return (
@@ -49,13 +51,13 @@ them to secure your vendor."
 						<TopServices />
 					</div>
 				</div>
-					<div className="flex justify-center items-center lg:pt-20">
-						<a
+					<div className="flex justify-center items-center py-10">
+						<Link
 							href="#"
 							className="text-white flex flex-row w-max font-bold bg-[#FF9100] rounded-l-3xl rounded-r-3xl focus:ring-4 text-sm px-6 lg:px-8 py-2 lg:py-3"
 						>
 							View All
-						</a>
+						</Link>
 					</div>
 			</section>
 		</div>
