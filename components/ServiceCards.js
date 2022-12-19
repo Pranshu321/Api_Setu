@@ -5,9 +5,9 @@ import { FaUserAlt } from 'react-icons/fa'
 const ServiceCards = ({head , content , icon}) => {
     return (
         <>
-            <div className='w-full flex flex-col rounded-xl'>
+            <div className='w-full flex flex-col rounded-xl bg-white'>
                 <Link
-                    className="relative lg:w-72 hover:bg-[#FF8300] block rounded-xl border border-gray-100 p-6 shadow-xl"
+                    className="relative lg:w-72 hover:bg-[#FF8300] block rounded-xl border border-gray-100 p-6 shadow-2xl"
                     href=""
                 >
 
