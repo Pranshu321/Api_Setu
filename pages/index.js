@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import ApiPractice from "../components/ApiPractice";
 import ApiPublishers from "../components/ApiPublishers";
 import CounterCta from "../components/CounterCta";
 import Cta from "../components/Cta";
@@ -31,6 +32,9 @@ export default function Home() {
 			</div>
 			<div>
 				<CounterCta />
+			</div>
+			<div>
+				<ApiPractice />
 			</div>
 			<div>
 				<Cta />
