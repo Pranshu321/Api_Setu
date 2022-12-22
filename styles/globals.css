@@ -4,13 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Nunito:wght@300&family=Poppins:ital,wght@1,800&display=swap");
 
-.containercheck input:checked ~ .checkmark {
-	background-color: black;
-}
 
-/* *{
+*{
     font-family: 'Nunito', sans-serif;
-} */
+}
 
 .gradient {
 	background: linear-gradient(
@@ -18,25 +15,6 @@
 		#ff8700 33.04%,
 		rgba(255, 138, 0, 0.83) 63.32%
 	);
-}
-
-.search_icon {
-	position: absolute;
-	width: 66px;
-	height: 47px;
-	right: 3px;
-	top: 3.5px;
-	border-radius: 45px;
-	outline: none;
-	border: none;
-	background: linear-gradient(
-		90deg,
-		rgb(255, 111, 0) 0%,
-		rgb(255, 145, 0) 100%
-	);
-	color: rgb(255, 255, 255);
-	font-size: 20px;
-	line-height: 19px;
 }
 
 .header_shadow {
@@ -47,7 +25,7 @@
 	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/1.png)
 		center bottom / cover;
 }
-.stat {
+.stat{
 	border-radius: 15px;
 	padding: 8px 30px;
 	background-image: linear-gradient(-90deg, #dfe2ff 18%, #dcedfe 86%);
@@ -113,4 +91,7 @@
 }
 .api-practice-bg{
 	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/3.png) center top / cover;
+}
+.api-consumers-bg{
+background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/2.png) center top / cover;	
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Cta = () => {
@@ -34,14 +35,13 @@ const Cta = () => {
 								style={{ backgroundSize: "cover" }}
 							></div>
 							<div className="action" style={{ backgroundSize: "cover" }}>
-								{" "}
-								<a
+								<Link
 									href="https://apisetu.gov.in/support"
 									className="btn-custom "
 									style={{ background: "#fff", color: "#ff7001" }}
 								>
 									Join Now
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
