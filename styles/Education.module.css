@@ -1,0 +1,11 @@
+.bg {
+	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/1.png) center bottom / cover;
+}
+
+.dark{
+    color: #35404e;
+}
+
+.light{
+    color: #5f6368;
+}

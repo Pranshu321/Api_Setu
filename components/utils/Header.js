@@ -12,12 +12,12 @@ const Navbar = () => {
                         <div className="flex justify-evenly lg:-ml-[28px] w-full flex-wrap">
                             <Link href="/" className="flex items-center">
                                 <img
-                                    src="https://directory.api-setu.in/logo.png"
+                                    src={"https://img1.digitallocker.gov.in/ndh/smart/images/logo_1.png"}
                                     className="mr-3 h-6 sm:h-12"
                                     alt="Logo"
                                 />
                                 <img
-                                    src="https://directory.api-setu.in/g20-logo.png"
+                                    src={"https://img1.digitallocker.gov.in/ndh/smart/images/g20-logo.png"}
                                     className="mr-3 h-6 sm:h-11"
                                     alt="Logo"
                                 />

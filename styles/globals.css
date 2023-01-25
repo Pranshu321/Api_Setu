@@ -4,9 +4,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Nunito:wght@300&family=Poppins:ital,wght@1,800&display=swap");
 
-
-*{
-    font-family: 'Nunito', sans-serif;
+* {
+	font-family: "Nunito", sans-serif;
 }
 
 .gradient {
@@ -25,7 +24,7 @@
 	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/1.png)
 		center bottom / cover;
 }
-.stat{
+.stat {
 	border-radius: 15px;
 	padding: 8px 30px;
 	background-image: linear-gradient(-90deg, #dfe2ff 18%, #dcedfe 86%);
@@ -65,7 +64,7 @@
 	line-height: 1em;
 	font-weight: 600;
 }
-.main-text{
+.main-text {
 	font-size: 40px;
 	letter-spacing: 0px;
 	margin: 0;
@@ -86,12 +85,15 @@
 	text-decoration: none;
 	text-transform: none;
 }
-.counter-bg{
-	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/7.png) center center / cover;
+.counter-bg {
+	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/7.png)
+		center center / cover;
 }
-.api-practice-bg{
-	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/3.png) center top / cover;
+.api-practice-bg {
+	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/3.png)
+		center top / cover;
 }
-.api-consumers-bg{
-background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/2.png) center top / cover;	
+.api-consumers-bg {
+	background: url(https://img1.digitallocker.gov.in/ndh/smart/images/background/2.png)
+		center top / cover;
 }

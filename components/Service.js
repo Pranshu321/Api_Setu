@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGraduationCap, FaRupeeSign, FaUserAlt } from "react-icons/fa";
 import { AiOutlineIdcard } from "react-icons/ai";
-import ServiceCards from "./ServiceCards";
+import ServiceCards from "./utils/ServiceCards";
 import TopServices from "./TopServices";
 import Link from "next/link";
 
