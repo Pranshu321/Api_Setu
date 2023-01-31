@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const EducationCards = ({ title, content }) => {
+const EducationCards = ({ title, content , wid }) => {
 	const [change, setchange] = useState(false);
 	return (
 		<div
@@ -11,7 +11,7 @@ const EducationCards = ({ title, content }) => {
 			<div
 				className={`${
 					change ? "bg-[#FF7300]" : "bg-white"
-				} p-4 rounded-lg w-[380px] shadow-lg`}
+				} p-4 rounded-lg w-[380px] min-h-${wid} shadow-lg lg:mx-0 mx-3`}
 			>
 				<div className="flex flex-col gap-2 p-2">
 					<p

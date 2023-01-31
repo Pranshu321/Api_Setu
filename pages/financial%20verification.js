@@ -4,7 +4,7 @@ import EducationApiCard from "../components/utils/EducationApiCard";
 import EducationCards from "../components/utils/EducationCards";
 import styles from "../styles/Education.module.css";
 
-const education = () => {
+const Financial = () => {
 	let print = [];
 	for (let i = 0; i < 40; i++) {
 		print.push(i);
@@ -12,7 +12,7 @@ const education = () => {
 	return (
 		<>
 			<Head>
-				<title>Education | APISetu</title>
+				<title>Financial Verification | APISetu</title>
 				<link
 					rel="shortcut icon"
 					href="https://img1.digitallocker.gov.in/ndh/smart/images/apisetu_icon.png"
@@ -23,42 +23,36 @@ const education = () => {
 				<div className={[styles.bg]}>
 					<div className={styles.bg}>
 						<div className="flex pt-10 flex-col justify-center items-center gap-y-3">
-							<p className="text-5xl text-gray-700 font-semibold">Education</p>
+							<p className="text-5xl text-gray-700 font-semibold">Financial Verification</p>
 							<p className="text-sm text-gray-500 font-medium">
-								Be Future Ready
+                            APIs Unlock Innovation in Banking and Financial Services
 							</p>
 						</div>
 						<div className="flex flex-col lg:flex-row justify-center gap-y-4 lg:gap-x-6 w-full mt-4">
 							<EducationCards
-								title={"Storage and verification"}
-								content="Storage and verification of Educational academic awards in accordance with New Education policy."
+								title={"Instant Digital Loans"}
+								content="Borrowers today care about speed and experience when looking for loans online. Lenders use our financial data services to check credit worthiness of their customers."
 							/>
 							<EducationCards
-								title={"Online admission process"}
-								content="Admission to schools, colleges and universities in paperless and presenceless way."
+								title={"Bank API integration made easy"}
+								wid={"[175px]"}
+								content="Build Banking-as-a-Service (BaaS) initiative to significantly transform the banking scenario in the country and transform banking process."
 							/>
 							<EducationCards
-								title={"Scholarship distribution"}
-								content="Scholarship distribution and Online verification of education awards in most reliant manner."
+								title={"KYC profiling"}
+								content="Mitigate credit risk by reducing ID fraud Credit Risk ProfilingKYC is a key component for risk profiling in fintech. Use our services to build a stronger risk profile of your customer."
 							/>
 						</div>
 					</div>
 					<div className="flex flex-col gap-y-5 mt-10">
 						<div className="flex justify-center">
 							<p className="text-[19px] text-[#35404e] font-semibold">
-								Education APIs Providers
+                            Banking and Insurance APIs Providers
 							</p>
 						</div>
 						<div className="flex flex-wrap gap-x-7 gap-y-5 lg:mx-4 mb-10 justify-center">
 							{print.map((item) => {
-								return (
-									<EducationApiCard
-										title={"CPCT-MAPIT"}
-										text={"Madhya Pradesh"}
-										img={"https://cf-media.api-setu.in/logo/issuers/001504.jpg"}
-										key={item}
-									/>
-								);
+								return <EducationApiCard img={"https://cf-media.api-setu.in/logo/issuers/001927.png"} title="New India Assurance" text={"All States"} key={item} />;
 							})}
 						</div>
 					</div>
@@ -68,4 +62,4 @@ const education = () => {
 	);
 };
 
-export default education;
+export default Financial;
