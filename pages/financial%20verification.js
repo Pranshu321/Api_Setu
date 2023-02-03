@@ -35,7 +35,7 @@ const Financial = () => {
 							/>
 							<EducationCards
 								title={"Bank API integration made easy"}
-								wid={"[175px]"}
+								wid={true}
 								content="Build Banking-as-a-Service (BaaS) initiative to significantly transform the banking scenario in the country and transform banking process."
 							/>
 							<EducationCards
