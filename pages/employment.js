@@ -43,48 +43,52 @@ const Employment = () => {
 							/>
 						</div>
 					</div>
-					<div className="flex flex-col gap-y-5 my-10 bg-white">
+					<div className="flex flex-col gap-y-5 py-10 bg-white" style={{background:"white"}}>
 						<div className="flex justify-around">
 							<p className="text-[19px] text-[#35404e] font-semibold">
 								Employment APIs
 							</p>
 						</div>
-                        <div className="flex justify-center gap-x-5 gap-y-5 lg:flex-row flex-col flex-wrap">
-                            <div>
-							<ServiceCards
-								head={"Pan Card"}
-								content="Education & Skill certificates API provided by different states for verification."
-								icon={<AiOutlineIdcard size={30} color="white" />}
-							/>
-                            </div>
-                            <div>
-							<ServiceCards
-								head={"Pan Card"}
-								content="Education & Skill certificates API provided by different states for verification."
-								icon={<AiOutlineIdcard size={30} color="white" />}
-							/>
-                            </div>
-                            <div>
-							<ServiceCards
-								head={"Pan Card"}
-								content="Education & Skill certificates API provided by different states for verification."
-								icon={<AiOutlineIdcard size={30} color="white" />}
-							/>
-                            </div>
-                            <div>
-							<ServiceCards
-								head={"Pan Card"}
-								content="Education & Skill certificates API provided by different states for verification."
-								icon={<AiOutlineIdcard size={30} color="white" />}
-							/>
-                            </div>
-                            <div>
-							<ServiceCards
-								head={"Pan Card"}
-								content="Education & Skill certificates API provided by different states for verification."
-								icon={<AiOutlineIdcard size={30} color="white" />}
-							/>
-                            </div>
+						<div className="flex justify-start lg:ml-[10rem] gap-x-5 gap-y-14 lg:flex-row flex-col flex-wrap">
+							<div>
+								<ServiceCards
+									head={"Education and Skill"}
+									content="Education & Skill 
+									certificates API provided by different states for verification."
+									height={"220px"}
+									icon={<AiOutlineIdcard size={30} color="white" />}
+								/>
+							</div>
+							<div>
+								<ServiceCards
+									head={"Pan Card"}
+									content="Income Tax Department, Govt of India has provided PAN Verification Records to Indian citizens via DigiLocker."
+									icon={<AiOutlineIdcard size={30} color="white" />}
+								/>
+							</div>
+							<div>
+								<ServiceCards
+									head={"Driving Licence"}
+									content="Driving License (DL) can be pulled by citizens into their DigiLocker accounts."
+									icon={<AiOutlineIdcard size={30} color="white" />}
+									height={"220px"}
+								/>
+							</div>
+							<div>
+								<ServiceCards
+									head={"Ration Card"}
+									content="Ration Cards issued by Food, Civil Supplies and Consumer Affairs Department are available for Verification."
+									icon={<AiOutlineIdcard size={30} color="white" />}
+								/>
+							</div>
+							<div>
+								<ServiceCards
+									head={"Caste Certificate"}
+									content="Caste certificate API provided by different states for KYC verification."
+									icon={<AiOutlineIdcard size={30} color="white" />}
+									height={"220px"}
+								/>
+							</div>
 						</div>
 					</div>
 				</div>

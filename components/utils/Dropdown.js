@@ -42,7 +42,11 @@ const Dropdown = ({ main, options }) => {
 							{options.map((item, idx) => (
 								<Link
 									key={idx + 1}
-									href={`/${item.toLowerCase()}`}
+									href={`/${
+										item === "Financial Verification"
+											? "financial_verification"
+											: item.toLowerCase()
+									}`}
 									className="text-black hover:bg-[#FF9100] hover:text-white mx-2 my-2 rounded-lg block px-4 py-2 text-sm"
 									role="menuitem"
 									tabIndex="-1"

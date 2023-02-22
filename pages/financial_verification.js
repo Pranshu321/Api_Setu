@@ -44,13 +44,13 @@ const Financial = () => {
 							/>
 						</div>
 					</div>
-					<div className="flex flex-col gap-y-5 mt-10">
+					<div className="flex flex-col bg-white gap-y-5 pt-10">
 						<div className="flex justify-center">
 							<p className="text-[19px] text-[#35404e] font-semibold">
                             Banking and Insurance APIs Providers
 							</p>
 						</div>
-						<div className="flex flex-wrap gap-x-7 gap-y-5 lg:mx-4 mb-10 justify-center">
+						<div className="flex flex-wrap gap-x-7 bg-white gap-y-5 lg:mx-4 mb-10 justify-center">
 							{print.map((item) => {
 								return <EducationApiCard img={"https://cf-media.api-setu.in/logo/issuers/001927.png"} title="New India Assurance" text={"All States"} key={item} />;
 							})}
