@@ -9,6 +9,7 @@ import { FaFeatherAlt } from "react-icons/fa";
 import { IoExtensionPuzzleSharp } from "react-icons/io5";
 import { MdPermMedia } from "react-icons/md";
 import { BsFillCartFill } from "react-icons/bs";
+import SecondMenu from "./SecondMenu";
 
 const StrapiSidebar = () => {
   const [side, setside] = useState(true);
@@ -233,54 +234,8 @@ const StrapiSidebar = () => {
             </div>
           </div>
         </aside>
-        <div
-          onMouseLeave={() => setsecondMenu(true)}
-          className={`absolute hidden lg:block top-[65px] lg:top-[78px] left-64 bg-white z-40 lg:h-[68rem] w-72 transition-transform`}
-          style={{ display: secondMenu ? "none" : null }}
-        >
-          <nav className="flex flex-col h-full">
-            {/* <!-- Logo --> */}
-            <div className="flex items-center justify-start flex-shrink-0 ml-6 py-4 pb-10">
-              <h1 className="text-2xl font-semibold text-gray-600">Settings</h1>
-            </div>
-
-            {/* <!-- Links --> */}
-            <div className="flex-1 px-4 space-y-2 overflow-hidden hover:overflow-auto">
-              <li className="list-none text-sm text-gray-500 font-semibold ml-3">
-                PLUGINS
-              </li>
-              <li className="py-1 ml-3 text-gray-600">
-                <a
-                  href="#"
-                  className="text-base font-normal text-gray-900 rounded-lg hover:bg-gray-100"
-                >
-                  <span className="flex-1 whitespace-nowrap text-gray-600">
-                    Content Type Builder
-                  </span>
-                </a>
-              </li>
-              <li className="py-1 ml-3 text-gray-600">
-                <a
-                  href="#"
-                  className="text-base font-normal text-gray-900 rounded-lg hover:bg-gray-100"
-                >
-                  <span className="flex-1 whitespace-nowrap text-gray-600">
-                    Media Library
-                  </span>
-                </a>
-              </li>
-              <li className="py-1 ml-3 text-gray-600">
-                <a
-                  href="#"
-                  className="text-base font-normal text-gray-900 rounded-lg hover:bg-gray-100 "
-                >
-                  <span className="flex-1 whitespace-nowrap text-gray-600">
-                    Documentation
-                  </span>
-                </a>
-              </li>
-            </div>
-          </nav>
+        <div>
+          <SecondMenu secondMenu={secondMenu} setsecondMenu={setsecondMenu} />
         </div>
         <div className="p-4 sm:ml-64">
           <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg">
