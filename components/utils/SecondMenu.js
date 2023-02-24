@@ -8,14 +8,14 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
         className={`absolute hidden lg:block top-[65px] lg:top-[78px] left-64 bg-white z-40 lg:h-[68rem] w-72 transition-transform`}
         style={{ display: secondMenu ? "none" : null }}
       >
-        <nav className="flex flex-col h-full gap-y-10">
+        <nav className="flex flex-col h-full">
           {/* <!-- Logo --> */}
           <div className="flex items-center justify-start flex-shrink-0 ml-6 py-4 pb-10">
             <h1 className="text-2xl font-semibold text-gray-600">Settings</h1>
           </div>
 
           {/* <!-- Links --> */}
-          <div className="px-4 space-y-2 overflow-hidden hover:overflow-auto">
+          <div className="px-4 mb-8 space-y-2 overflow-hidden hover:overflow-auto">
             <li className="list-none text-sm text-gray-500 font-semibold ml-3">
               GLOBAL SETTINGS
             </li>
@@ -65,7 +65,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
               </a>
             </li>
           </div>
-          <div className="px-4 overflow-hidden hover:overflow-auto">
+          <div className="px-4 mb-8 overflow-hidden hover:overflow-auto">
             <li className="list-none text-sm text-gray-500 font-semibold ml-3">
               ADMINISTRATION PANEL
             </li>
