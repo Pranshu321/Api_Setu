@@ -5,7 +5,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
     <div>
       <div
         onMouseLeave={() => setsecondMenu(true)}
-        className={`absolute hidden lg:block top-[65px] lg:top-[78px] left-64 bg-white z-40 lg:h-[68rem] w-72 transition-transform`}
+        className={`absolute hidden lg:flex top-[65px] lg:top-[78px] left-64 bg-gray-50 z-10 lg:h-[68rem] w-72 transition-transform`}
         style={{ display: secondMenu ? "none" : null }}
       >
         <nav className="flex flex-col h-full">
@@ -16,7 +16,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
 
           {/* <!-- Links --> */}
           <div className="px-4 mb-8 space-y-2 overflow-hidden hover:overflow-auto">
-            <li className="list-none text-sm text-gray-500 font-semibold ml-3">
+            <li className="list-none text-sm text-gray-800 font-semibold ml-3">
               GLOBAL SETTINGS
             </li>
             <li className="py-1 ml-3 text-gray-600 hover:bg-gray-100 px-3 rounded-lg">
@@ -66,7 +66,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
             </li>
           </div>
           <div className="px-4 mb-8 overflow-hidden hover:overflow-auto">
-            <li className="list-none text-sm text-gray-500 font-semibold ml-3">
+            <li className="list-none text-sm text-gray-800 font-semibold ml-3">
               ADMINISTRATION PANEL
             </li>
             <li className="py-2 ml-3 text-gray-600 hover:bg-gray-100 px-3 rounded-lg">
@@ -88,7 +88,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
             </li>
           </div>
           <div className="px-4 overflow-hidden hover:overflow-auto">
-            <li className="list-none text-sm text-gray-500 font-semibold ml-3">
+            <li className="list-none text-sm text-gray-800 font-semibold ml-3">
               EMAIL PANEL
             </li>
             <li className="py-2 ml-3 text-gray-600 hover:bg-gray-100 px-3 rounded-lg">
