@@ -10,6 +10,8 @@ import { IoExtensionPuzzleSharp } from "react-icons/io5";
 import { MdPermMedia } from "react-icons/md";
 import { BsFillCartFill } from "react-icons/bs";
 import SecondMenu from "./SecondMenu";
+import CheckBox from "./CheckBox";
+import Tabs from "./Tabs";
 
 const StrapiSidebar = () => {
   const [side, setside] = useState(true);
@@ -42,7 +44,7 @@ const StrapiSidebar = () => {
           } transition-transform`}
           aria-label="Sidebar"
         >
-          <div className="lg:h-[63rem] h-[66rem] px-3 py-4 overflow-y-auto bg-gray-50">
+          <div className="lg:max-h-max lg:min-h-[42rem] h-[61rem] px-3 py-4 bg-gray-50">
             <div className="lg:hidden flex justify-end">
               <span onClick={() => setside(!side)}>
                 <AiOutlineClose
@@ -241,9 +243,9 @@ const StrapiSidebar = () => {
           <div
             className={` ${
               !secondMenu ? "lg:ml-72" : null
-            } p-4 border-2 border-gray-200 border-dashed rounded-lg`}
+            } p-2 border-2 border-gray-200 rounded-lg`}
           >
-            <div className="grid grid-cols-3 gap-4 mb-4">
+            {/* <div className="grid grid-cols-3 gap-4 mb-4">
               <div className="flex items-center justify-center h-24 rounded bg-gray-50">
                 <p className="text-2xl text-gray-700">+</p>
               </div>
@@ -252,12 +254,34 @@ const StrapiSidebar = () => {
               </div>
               <div className="flex items-center justify-center h-24 rounded bg-gray-50">
                 <p className="text-2xl text-gray-700">+</p>
+              </div>
+            </div> */}
+            <div className="flex justify-start min-h-[90vh] max-h-max mb-4 rounded bg-gray-50">
+              <div className="p-2 text-2xl w-full text-gray-700">
+                <div>
+                  {/* <h3 className="mb-4 font-semibold text-black">
+                    Identification
+                  </h3> */}
+                  <div className="mb-10">
+                    <Tabs />
+                  </div>
+
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                  <CheckBox />
+                </div>
               </div>
             </div>
-            <div className="flex items-center justify-center h-48 mb-4 rounded bg-gray-50">
-              <p className="text-2xl text-gray-700">+</p>
-            </div>
-            <div className="grid grid-cols-2 gap-4 mb-4">
+            {/* <div className="grid grid-cols-2 gap-4 mb-4">
               <div className="flex items-center justify-center rounded bg-gray-50 h-28">
                 <p className="text-2xl text-gray-700">+</p>
               </div>
@@ -287,7 +311,7 @@ const StrapiSidebar = () => {
               <div className="flex items-center justify-center rounded bg-gray-50 h-28">
                 <p className="text-2xl text-gray-700">+</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

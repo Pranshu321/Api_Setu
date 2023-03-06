@@ -5,7 +5,7 @@ const SecondMenu = ({ secondMenu, setsecondMenu }) => {
     <div>
       <div
         onMouseLeave={() => setsecondMenu(true)}
-        className={`absolute hidden lg:flex top-[65px] lg:top-[78px] left-64 bg-gray-50 z-10 lg:h-[68rem] w-72 transition-transform`}
+        className={`absolute hidden lg:flex top-[65px] lg:top-[78px] left-64 bg-gray-50 z-10 lg:h-[47rem] w-72 transition-transform`}
         style={{ display: secondMenu ? "none" : null }}
       >
         <nav className="flex flex-col h-full">
