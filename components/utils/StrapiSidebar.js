@@ -12,6 +12,7 @@ import { BsFillCartFill } from "react-icons/bs";
 import SecondMenu from "./SecondMenu";
 import CheckBox from "./CheckBox";
 import Tabs from "./Tabs";
+import TopNavDashboard from "./TopNavDashboard";
 
 const StrapiSidebar = () => {
   const [side, setside] = useState(true);
@@ -262,6 +263,9 @@ const StrapiSidebar = () => {
                   {/* <h3 className="mb-4 font-semibold text-black">
                     Identification
                   </h3> */}
+                  <div>
+                    <TopNavDashboard />
+                  </div>
                   <div className="mb-10">
                     <Tabs />
                   </div>
